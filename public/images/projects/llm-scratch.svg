@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#g3)"/>
+  <rect x="100" y="80" width="600" height="240" rx="12" fill="#0f172a" stroke="#06ffa5" stroke-width="1"/>
+  <text x="130" y="130" fill="#06ffa5" font-family="monospace" font-size="14">class Transformer(nn.Module):</text>
+  <text x="150" y="160" fill="#94a3b8" font-family="monospace" font-size="13">def forward(self, x):</text>
+  <text x="170" y="190" fill="#00d4ff" font-family="monospace" font-size="13">attn = self.attention(x)</text>
+  <text x="170" y="220" fill="#7c3aed" font-family="monospace" font-size="13">return self.ffn(attn)</text>
+  <text x="400" y="360" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="16">LLM From Scratch · 124M params</text>
+</svg>

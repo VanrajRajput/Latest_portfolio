@@ -1,0 +1,184 @@
+{
+  "personal": {
+    "name": "Desai Vanrajsinh",
+    "position": "AI/ML Engineer",
+    "summary": "AI/ML Engineer specializing in agentic systems, RAG pipelines,Fine tuning on custom data and production-grade LLM applications. IBM Professional Data Science Certification holder with hands-on experience building multimodal rag chatbots, LangGraph-based agentic ticket resolution system, and transformer models from scratch,serving ~10K requests/day with 95%+ classification accuracy.",
+    "profileImage": "/images/vanraj_crop_image.png",
+    "resumeUrl": "/Vanraj_AI_ML_Engineer.pdf",
+    "education": {
+      "institution": "LJ Institute of Engineering and Technology",
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "gpa": "9.1/10"
+    }
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Tuvoc Technologies Private Limited",
+      "role": "AI/ML Engineer",
+      "location": "Bangalore, India",
+      "startDate": "Oct 2024",
+      "endDate": "Present",
+      "duration": "Oct 2024 – Present",
+      "responsibilities": [
+        "Built an end-to-end RAG-based multimodal chatbot (text + image) using LLMs, supporting freemium access, trained over 10000+ documents, achieving high response accuracy and strong contextual retrieval performance.",
+        "Selected through client interview and worked on-site in Bangalore to develop a LangGraph-based agentic chatbot for agentic ticket resolution system, integrating a custom-trained ModernBert classification model, serving ~10K requests/day with 95%+ classification accuracy.",
+        "Currently designing and implementing an agent-based issue resolution system, where specialized agents autonomously analyze, route, and resolve classified tickets, reducing manual intervention and improving resolution efficiency.",
+        "Implemented Cooperative SQL Generation (CSMA-SQL) using multi-functional LLM agents, enabling accurate SQL generation over large, segmented enterprise databases whose schemas exceed single-context LLM limits."
+      ],
+      "achievements": [
+        "Achieved 95%+ ticket classification accuracy at ~10K requests/day in production environment daily used by 12k employees",
+        "Indexed and retrieved knowledge from 10000+ documents with high contextual grounding",
+        "IBM Professional Data Science Certification holder",
+        "On-site client engagement in Bangalore for enterprise AI delivery"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Agentic Ticket Classification & Resolution System",
+      "description": "LangGraph-based agentic chatbot for automatic ticket classification and resolution with custom-trained ModernBert model and autonomous issue resolution agents.",
+      "technologies": ["Python", "LangGraph", "ModernBert", "AWS Bedrock", "Langfuse","Docker","FastAPI","Grafana","Milvus","PostgreSQL"],
+      "github": "",
+      "demo": "",
+      "image": "/images/projects/Etac.png",
+      "features": [
+        "LangGraph-based agentic workflow for ticket automation",
+        "Custom-trained ModernBert classification model integration",
+        "Agent-based issue resolution with autonomous routing and agentic resolution",
+        "Production monitoring with Langfuse",
+        "Serving 10K requests/day with 95%+ classification accuracy",
+        "Reduce 50% workforce from the support team"
+      ],
+      "metrics": [
+        { "label": "Classification Accuracy", "value": "95%+" },
+        { "label": "Daily Requests", "value": "~10K" },
+        { "label": "Environment", "value": "Production" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Enterprise Multimodal RAG Platform with Hybrid Retrieval & Guardrails",
+      "description": "Built a production-ready enterprise AI platform leveraging Multimodal Retrieval-Augmented Generation (RAG) with hybrid search, custom web retrieval, guardrails, observability, and cost-optimized inference. The system supports text, image, and document understanding while delivering grounded, secure, and scalable responses across internal and external knowledge sources",
+      "technologies": ["FastAPI", "LangChain","OpenAI","Qdrant", "MySQL", "Hybrid Search", "BM25", "Dense Embeddings", "NVIDIA NeMo Guardrails", "LangSmith", "Grafana", "Prometheus", "Docker", "Redis", "Stripe"],
+      "github": "",
+      "demo": "",
+      "image": "/images/projects/chatbot_po.jpg",
+      "features": [
+        "Multimodal input support (text + image + guardrails)",
+        "10000+ document knowledge base indexing",
+        "Hybrid search with BM25 and dense embeddings",
+        "Custom web retrieval with guardrails",
+        "Observability with LangSmith, Grafana, Prometheus",
+        "Cost optimization with Stripe",
+        "Optimized chunking, embeddings, and prompt strategies"
+      ],
+      "metrics": [
+        { "label": "Documents Indexed", "value": "10000+" },
+        { "label": "Retrieval Quality", "value": "High" },
+        { "label": "Access Model", "value": "Freemium" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Large Language Model From Scratch",
+      "description": "GPT-style Transformer language model implemented from scratch in PyTorch with ~124M parameters, exported to ONNX for optimized inference.",
+      "technologies": ["PyTorch", "Transformers", "Deep Learning", "Hugging Face", "ONNX"],
+      "github": "",
+      "demo": "",
+      "image": "/images/projects/llm_from_scratch.png",
+      "features": [
+        "Self-attention, embeddings, causal masking, feed-forward layers",
+        "Extensive hyperparameter tuning and experimentation",
+        "ONNX export for cross-platform deployment",
+        "~124M parameter GPT-style architecture"
+      ],
+      "metrics": [
+        { "label": "Parameters", "value": "~124M" },
+        { "label": "GPU Latency", "value": "~12ms" }
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Cooperative SQL Generation (CSMA-SQL)",
+      "description": "Multi-functional LLM agent system for accurate SQL generation over large, segmented enterprise databases exceeding single-context LLM limits.",
+      "technologies": ["Python", "LLM Agents", "SQL", "LangChain", "PostgreSQL"],
+      "github": "",
+      "demo": "",
+      "image": "/images/projects/sql.png",
+      "features": [
+        "Multi-agent cooperative SQL generation",
+        "Schema segmentation for large enterprise databases",
+        "Context-aware query planning across database segments",
+        "Enterprise-grade accuracy over complex schemas"
+      ],
+      "metrics": [
+        { "label": "Schema Handling", "value": "Segmented" },
+        { "label": "Agent Type", "value": "Multi model llms" },
+        { "label": "Use Case", "value": "Enterprise DB" }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "IBM Data Science Professional Certificate",
+      "organization": "IBM",
+      "logo": "/images/certifications/ibm_i.jpg",
+      "description": "Comprehensive training in Python, SQL, data analysis, machine learning, visualization, and generative AI, including hands-on projects and a capstone focused on real-world data science workflows.",
+      "credentialLink": "https://coursera.org/verify/professional-cert/FRBNRA66W91Z",
+      "issueDate": "Aug 22, 2024"
+    },
+    {
+      "id": "cert-2",
+      "name": "Mathematics for Machine Learning & Data Science Specialization",
+      "organization": "DeepLearning.AI",
+      "logo": "/images/certifications/deeplearnai_I.jpg",
+      "description": "Strong foundation in linear algebra, calculus, probability, and statistics, with emphasis on mathematical concepts essential for machine learning and deep learning models.",
+      "credentialLink": "https://coursera.org/verify/specialization/H3UTW5B6CIC0",
+      "issueDate": "Jun 27, 2025"
+    },
+    {
+      "id": "cert-3",
+      "name": "IBM DevOps and Software Engineering Professional Certificate",
+      "organization": "IBM",
+      "logo": "/images/certifications/coursear_I.png",
+      "description": "Comprehensive training in DevOps, Software Engineering, Agile, Scrum, Cloud Computing, Git/GitHub, Linux, Python, Docker, Kubernetes, OpenShift, Microservices, Serverless Architectures, CI/CD, Application Security, Monitoring, and Observability, reinforced through hands-on labs and a real-world DevOps capstone project.",
+      "credentialLink": "https://coursera.org/verify/professional-cert/088D4Z83CD57",
+      "issueDate": "Jan 29, 2026"
+    }],
+  "skills": {
+    "Languages": ["Python", "Java", "C++", "JavaScript"],
+    "Databases & Vector Databases": ["Milvus", "Qdrant", "ChromaDB", "PostgreSQL", "MySQL", "MongoDB"],
+    "Frameworks & Libraries": ["LangChain", "LangGraph", "LlamaIndex", "CrewAI", "Hugging Face", "PyTorch", "ONNX"],
+    "MLOps & Monitoring": ["vLLM Inference", "Runpod", "RAGAs", "Langfuse", "Ray (Basics)", "DVC", "MLflow"],
+    "Tools & Technologies": ["Git", "GitHub", "VS Code", "Postman", "Linux", "Docker", "GitHub Actions"],
+    "Other Skills": ["Problem Solving", "Verbal Communication", "Team Leadership", "Attention to Detail"]
+  },
+  "contact": {
+    "email": "rajputvanrajsinh76@gmail.com",
+    "phone": "+91-6354132717",
+    "availability": "Open to opportunities"
+  },
+  "socials": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vanrajsinh-desai-38b5a2273/",
+      "icon": "linkedin"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/VanrajRajput",
+      "icon": "github"
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "url": "https://x.com/vanrajsinh_68",
+      "icon": "x"
+    }
+  ]
+}
