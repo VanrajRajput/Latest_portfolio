@@ -38,8 +38,8 @@ export function Hero() {
             className="mb-4 inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-1.5"
           >
             <Sparkles className="h-4 w-4 text-cyan-400" />
-            <span className="font-mono text-xs text-cyan-400">Let's Build</span>
-          </motion.div>
+            <span className="font-mono text-xs text-cyan-400">{"Let's Build"}</span>
+            </motion.div>
 
           <h1 className="mb-4 text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl">
             <span className="text-white">{personal.name}</span>
